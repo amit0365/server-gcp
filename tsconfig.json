@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
       "target": "es2020",
-      "module": "CommonJS",
+      "module": "ESNext",
       "esModuleInterop": true,
       "lib": [
         "dom",
@@ -31,5 +31,5 @@
     "exclude": [
       "node_modules"
     ]
-  }
+}
   
