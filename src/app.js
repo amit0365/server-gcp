@@ -5,8 +5,8 @@ import cookieParser from 'cookie-parser';
 import helmet from 'helmet';
 import config from 'config';
 
-import indexRouter from './routes';
-import logger from './utils/logger';
+import indexRouter from './routes/index.js';
+import logger from './utils/logger.js';
 
 const app = express();
 
